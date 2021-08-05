@@ -3,10 +3,17 @@
 
 # init
 /scoreboard objectives add round dummy "round"
+
 /scoreboard objectives add count_down dummy "count_down"
+
 /scoreboard objectives add health health "health"
+
 /scoreboard objectives setdisplay belowName health
+
+/scoreboard objectives add zombie_count dummy "zombie_count"
+
 /setblock 16 15 52 minecraft:redstone_block destroy
+
 
 
 # infinite
