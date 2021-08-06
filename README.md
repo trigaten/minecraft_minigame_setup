@@ -27,6 +27,8 @@
 
 /setblock 16 15 52 minecraft:redstone_block destroy
 
+/scoreboard objectives add boss_count dummy "boss_count"
+
 
 
 # infinite
