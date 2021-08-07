@@ -29,6 +29,9 @@
 
 /scoreboard objectives add boss_count dummy "boss_count"
 
+track life
+/scoreboard objectives add isDead deathCount "isDead"
+
 
 
 # infinite
